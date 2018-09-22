@@ -2,13 +2,13 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "engines": {
     "node": "10.11.0",
     "npm": "6.4.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
