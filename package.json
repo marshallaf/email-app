@@ -8,7 +8,8 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,8 @@
     "express": "^4.16.3",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
